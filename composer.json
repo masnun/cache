@@ -1,0 +1,24 @@
+{
+    "name": "masnun/cache",
+    "description": "A package that allows you to use two caching engines, one as a fallback for the other",
+    "keywords": [
+        "laravel",
+        "cache"
+    ],
+    "authors": [
+        {
+            "name": "Abu Ashraf Masnun",
+            "email": "masnun@transcendio.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Masnun\\Cache": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
